@@ -1,5 +1,5 @@
 {
-  "name": "sample",
+  "name": "githubSample",
   "version": "1.0.0",
   "description": "This is sample plugin for farseer",
   "main": "index.js",
