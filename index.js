@@ -7,7 +7,7 @@ const apiHandler = (req, res, next)=>{
 	const {method} = req; //GET, POST, PUT, DEL
 	if(subroute==="test"){
 		res.jsonp({status:"test route"})
-	} else if(subroute===null) {
+	} else if(subroute==="ui" || subroute===null) {
 		var uiComponent = path.join(__dirname, './ui/dist/main.js');
 		res.sendFile(uiComponent)
 	} else {
